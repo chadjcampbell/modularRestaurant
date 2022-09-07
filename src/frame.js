@@ -18,6 +18,7 @@ export default function frame() {
     navbar.append(home, menu, contact)
 
     const mainDisplay = document.createElement('div');
+    mainDisplay.id = 'main';
 
     const footer = document.createElement('footer');
     footer.innerHTML = 'Made by Chad J Campbell - You can check out my &nbsp &nbsp <a href="https://github.com/chadjcampbell">GitHub Here</a>';

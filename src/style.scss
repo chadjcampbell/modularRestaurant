@@ -22,12 +22,36 @@ footer {
     justify-content: center;
     background-color: rgb(250, 233, 149);
     min-height: 50px;
+    padding: 20px;
 }
 
 a {
     transition: all 1s;
 }
+
 a:hover {
     cursor: pointer;
     scale: 1.25;
+}
+
+#main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote {
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
 }
