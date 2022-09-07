@@ -1,1 +1,33 @@
 @import "~bootstrap/scss/bootstrap";
+
+#content {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('./pizzabg.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgb(255, 78, 78);
+    min-height: 50px;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 233, 149);
+    min-height: 50px;
+}
+
+a {
+    transition: all 1s;
+}
+a:hover {
+    cursor: pointer;
+    scale: 1.25;
+}
