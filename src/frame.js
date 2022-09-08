@@ -7,12 +7,15 @@ export default function frame() {
     navbar.classList.add('navbar');
 
     const home = document.createElement('a');
+    home.id = 'homebtn';
     home.textContent = 'Home';
 
     const menu = document.createElement('a');
+    menu.id = 'menubtn';
     menu.textContent = 'Menu';
 
     const contact = document.createElement('a');
+    contact.id = 'contactbtn';
     contact.textContent = 'Contact';
 
     navbar.append(home, menu, contact)
