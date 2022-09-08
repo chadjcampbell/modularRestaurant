@@ -1,2 +1,2 @@
 # modularRestaurant
-Restaurant site built with modules, bundled by Webpack
+Restaurant site built with ES6 modules, bundled by Webpack
